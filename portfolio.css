@@ -13,7 +13,7 @@
 }
 header{
     background-color: antiquewhite;
-    background:url("developer.png") no-repeat,antiquewhite;
+    background:url("developer.png") no-repeat ,antiquewhite;
     background-position:  left;
     padding-top:30px;
 
@@ -54,8 +54,8 @@ nav ul li a {
 }
 
 #banner{
-    border:1px solid black;
-    margin: 10px 38px 0 230px;
+    /* border:1px solid black; */
+    margin: 30px 38px 0 235px;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -98,4 +98,47 @@ nav ul li a {
     width: 500px;
     height: auto;
     vertical-align:middle;
+    border-radius:30px;
+    margin-bottom:5px;
+}
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+.section-heading h2{
+    font-size:35px;
+    margin-bottom:10px;
+}
+.section-heading p{
+    font-size:18px;
+    color:#757575;
+    line-height:30px;
+    margin-bottom:10px;
+}
+#about{
+    padding-top:100px;
+    margin-bottom:50px;
+
+}
+#about .about-container{
+    width:71%;
+    max-width:1140px;
+    margin:0 auto;
+    text-align:center;
+    background-color: #feefce;
+    padding: 131px 157px;
+
+}
+.about-info{
+    display:flex;
+    justify-content: space-around;
+}
+.about-info .info-item p{
+    font-size:18px;
+    color:#757575;
+    line-height:30px;
+}
+.about-info .info-item h4{
+    font-size:20px;
+    font-style:italic;
 }
