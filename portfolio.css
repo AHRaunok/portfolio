@@ -13,7 +13,10 @@
 }
 header{
     background-color: antiquewhite;
+    background:url("developer.png") no-repeat,antiquewhite;
+    background-position:  left;
     padding-top:30px;
+
 }
 .logo h2{
     font-size: 24px;
@@ -48,4 +51,51 @@ nav ul li a {
     text-decoration:none;
     font-size:20px;
     color:black;
+}
+
+#banner{
+    border:1px solid black;
+    margin: 10px 38px 0 230px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#banner .banner-content{
+    max-width:585px;
+}
+#banner .banner-content h2{
+    font-size: 36px;
+    color:#474747;
+    margin-bottom:5px;
+}
+#banner .banner-content h1{
+    font-size:85px;
+    font-weight:bold;
+    color:#181818;
+    margin-bottom:20px;
+}
+#banner .banner-content p{
+    font-size:18px;
+    color:#757575;
+    line-height:30px;
+    margin-bottom:30px;
+}
+.ban-content-button{
+    display:flex;
+    gap:20px;
+    
+}
+.banner-buttons {
+    background-color: #fd6e0a;
+    border:none;
+    border-radius:5px;
+    padding:10px 20px;
+    color:white;
+    cursor:pointer;
+}
+#banner .banner-image img{
+    width: 500px;
+    height: auto;
+    vertical-align:middle;
 }
