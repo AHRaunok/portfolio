@@ -13,10 +13,9 @@
 }
 header{
     background-color: antiquewhite;
-    background:url("developer.png") no-repeat ,antiquewhite;
+    background:url("") no-repeat ,antiquewhite;
     background-position:  left;
-    padding-top:30px;
-
+    padding-top:20px;    
 }
 .logo h2{
     font-size: 24px;
@@ -220,4 +219,60 @@ nav ul li a {
 }
 .resume-container hr{
     margin:20px 0;
+}
+.cv-button{
+    text-align:center;
+}
+.resume-button{
+    background-color:rgb(241, 142, 36);
+    border:none;
+    border-radius:5px;
+    padding:10px 20px;
+}
+footer{
+    margin-top:50px;
+    background-color: antiquewhite;
+    padding:40px 0;
+}
+.footer-container{
+    display:flex;
+    width:71%;
+    max-width:1140px;
+    margin:0 auto;
+    gap:200px;
+    }
+.footer-container .social{
+    max-width:570px;
+}
+.footer-container h2{
+    font-size:30px;
+    font-weight:bold;
+    color:maroon;
+    margin-bottom:10px;
+}
+.social p{
+    font-size:18px;
+    color:#757575;
+    line-height:30px;
+    margin-bottom:20px;
+}
+.social .icons img{
+    width:40px;
+    height:auto;
+    
+}
+.social .icons{
+    display:flex;
+    gap:10px;
+}
+.footer-container form input[type="text"],
+.footer-container form input[type="email"],
+.footer-container form textarea{
+   
+    padding:10px;
+    width:460px;
+    margin-bottom:10px;
+    border:none;
+    border-radius:5px;
+    color:#757575;
 }
