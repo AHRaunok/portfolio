@@ -276,3 +276,41 @@ footer{
     border-radius:5px;
     color:#757575;
 }
+.hide{
+    display:none;
+}
+@media screen and (max-width:350px){
+    #about .about-container{
+        width:100%;
+        padding:10px;
+        margin:5px;
+    }
+    #about .about-info{
+        flex-direction: column;
+        gap:20px;
+    }
+    #about .section-heading{
+        width:90%;
+    }
+    #about .section-heading h2{
+        font-size:24px;
+    }
+    #about .section-heading p{
+        line-height:27px;
+    }
+    #about .info-item p{
+        color:black;
+        font-weight: bold;
+    }
+    #about .info-item h4{
+        color:rgb(75, 98, 32);
+        font-weight: 600;
+    }
+    #skill .skill-box{
+        flex-direction: column;
+        align-items: center;
+    }
+    #skill .skill-container .section-heading h2{
+        font-size:24px;
+    }
+}
