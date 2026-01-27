@@ -15,7 +15,8 @@ header{
     background-color: antiquewhite;
     background:url("") no-repeat ,antiquewhite;
     background-position:  left;
-    padding-top:20px;    
+    padding-top:20px;
+    margin:2px;
 }
 .logo h2{
     font-size: 24px;
@@ -98,7 +99,7 @@ nav ul li a {
     height: auto;
     vertical-align:middle;
     border-radius:30px;
-    margin-bottom:5px;
+    margin-bottom:10px;
 }
 .section-heading{
     max-width: 827px;
@@ -230,9 +231,10 @@ nav ul li a {
     padding:10px 20px;
 }
 footer{
-    margin-top:50px;
+    margin:30px 2px 2px 2px;
     background-color: antiquewhite;
     padding:40px 0;
+
 }
 .footer-container{
     display:flex;
@@ -280,8 +282,44 @@ footer{
     display:none;
 }
 @media screen and (max-width:576px){
-    #about .about-container{
+    header nav{
+        flex-direction: column;
+        gap:15px;
+    }
+    header nav ul li a{
+        font-size:16px;
+    }
+
+    #banner{
+        flex-direction: column;
+        margin:20px;
+        gap:20px;
+        text-align: center;
+    }
+    #banner .banner-content h1{
+        font-size:48px;
+    }
+    #banner .banner-content h2{
+        font-size:28px;
+    }
+    #banner .banner-content p{
+        font-size:16px;
+        line-height:24px;
+    }
+    #banner .banner-image img{
         width:100%;
+        max-width:300px;
+        height:auto;
+    }
+    #banner .ban-content-button{
+        justify-content: center;
+    }
+    #about{
+        padding-top:50px;
+    }
+
+    #about .about-container{
+        width:98%;
         padding:10px;
         margin:5px;
     }
@@ -312,5 +350,27 @@ footer{
     }
     #skill .skill-container .section-heading h2{
         font-size:24px;
+    }
+    #skill .skill-box .skill-card{
+        max-width:100%;
+    }
+    #resume .resume-container{
+        width:98%;
+        flex-direction: column;
+        margin:10px;
+    }
+    #resume .resume-container .resume-card{
+        margin-right: 5px;
+    }
+    footer .footer-container{
+        flex-direction: column;
+        gap:30px;
+
+    }
+    footer .footer-container form input[type="text"],
+    footer .footer-container form input[type="email"],
+    footer .footer-container form textarea{
+        width:100%;
+        gap:30px;
     }
 }
